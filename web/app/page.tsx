@@ -2,8 +2,8 @@
 
 import { Grid, Avatar, Paper, styled } from '@mui/material';
 
-import Header from "./components/Header"
-import Content from './components/Content';
+import Header from "./components/Header.js"
+import Content from './components/Content.js';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -12,6 +12,7 @@ const Item = styled(Paper)(({ theme }) => ({
   marginTop:"50px",
   textAlign: 'center',
   color: theme.palette.text.secondary,
+  
 }));
 
 export default function HomePage () {
@@ -19,12 +20,12 @@ export default function HomePage () {
   return (
     <>
     <Header />
-    <Grid container direction="column" alignItems="center" marginTop="50px">
+    <Grid container direction="column" alignItems="center" marginTop="100px">
       <Grid item xs={8}>
         <Avatar
             alt="profile_image"
             src="https://picsum.photos/150"
-            sx={{ width: 200, height: 200, boxShadow: 3 }}
+            sx={{ width: 200, height: 200, boxShadow: 5 }}
           />
       </Grid>
       <Grid item xs={8}>

@@ -1,6 +1,7 @@
 import { AppBar, Toolbar, Typography, makeStyles } from '@material-ui/core'
 import React from 'react'
 import StarBorderIcon from '@mui/icons-material/StarBorder';
+import getRandomColor from './GetRandomColor'
 
 const useStyles = makeStyles(() => ({
   typographyStyles: {
