@@ -2,8 +2,8 @@
 
 import { Grid, Avatar, Paper, styled } from '@mui/material';
 
-import Header from "./components/Header.js"
 import Content from './components/Content.js';
+import Header from './components/Header.js'
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
