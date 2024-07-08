@@ -2,8 +2,8 @@
 
 import { Grid, Avatar, Paper, styled } from '@mui/material';
 
-import Content from './components/Content.js';
-import Header from './components/Header.js'
+import Content from './components/Content';
+import Header from './components/Header'
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -12,7 +12,6 @@ const Item = styled(Paper)(({ theme }) => ({
   marginTop:"50px",
   textAlign: 'center',
   color: theme.palette.text.secondary,
-  
 }));
 
 export default function HomePage () {
