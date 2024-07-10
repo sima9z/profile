@@ -1,3 +1,5 @@
+"use client";
+
 import { AppBar, Toolbar } from '@material-ui/core';
 import React, { useState, useEffect } from 'react';
 import Typography from '../atoms/Typography';
